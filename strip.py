@@ -16,7 +16,7 @@ def process_file(input_file, output_file):
                 last_word = words[-1].rstrip('.')
                 
                 # Adicionar ao resultado
-                results.append(f"{first_word} \n {last_word}")
+                results.append(f"{first_word}\n{last_word}")
     
     # Escrever os resultados no arquivo de saída
     with open(output_file, 'w') as file:
